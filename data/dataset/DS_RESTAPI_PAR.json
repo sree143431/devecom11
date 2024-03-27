@@ -1,8 +1,8 @@
 {
-	"name": "DS_SQLSERVER_PAR",
+	"name": "DS_RESTAPI_PAR",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_SQLSERVER_PAR",
+			"referenceName": "LS_RESTAPI_PAR",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "order",
+				"folderPath": "customer",
 				"fileSystem": "output"
 			},
 			"compressionCodec": "snappy"
