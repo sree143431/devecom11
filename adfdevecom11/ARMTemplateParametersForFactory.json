@@ -11,8 +11,32 @@
 		"LS_SQLSERVER_PAR_accountKey": {
 			"value": ""
 		},
+		"LS_RESTAPI_PAR_accountKey": {
+			"value": ""
+		},
+		"LS_MANUALFILE_PAR_accountKey": {
+			"value": ""
+		},
+		"LS_MANUALFILE_PAR_OUTPUT_accountKey": {
+			"value": ""
+		},
 		"LS_SQLSERVER_PAR_properties_typeProperties_url": {
 			"value": "https://adlssidevecom11.dfs.core.windows.net/"
+		},
+		"LS_REST_PAR_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/rUQTbX/data"
+		},
+		"LS_RESTAPI_PAR_properties_typeProperties_url": {
+			"value": "https://adlssidevecom11.dfs.core.windows.net/"
+		},
+		"LS_MANUALFILE_PAR_properties_typeProperties_url": {
+			"value": "https://adlsrawecom11.dfs.core.windows.net/"
+		},
+		"LS_MANUALFILE_PAR_OUTPUT_properties_typeProperties_url": {
+			"value": "https://adlssidevecom11.dfs.core.windows.net/"
+		},
+		"evnt_manualfile_ingestion_properties_typeProperties_scope": {
+			"value": "/subscriptions/9bf0eb29-1429-4ccb-89fd-c479b74396bf/resourceGroups/rg_devecom1/providers/Microsoft.Storage/storageAccounts/adlsrawecom11"
 		}
 	}
 }
