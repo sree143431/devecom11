@@ -1,0 +1,16 @@
+{
+	"name": "LS_SQL_PAR",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-A0U2RCA\\SREEJITH;initial catalog=SalesEcommerce;user id=SRIK",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxNWIyYTQ5Ni00MDMyLTQ3OTUtOGYwMS0wNTU1NDlmNjZmNWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeecom",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
