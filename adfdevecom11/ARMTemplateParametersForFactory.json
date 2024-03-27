@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevecom11"
+		},
+		"LS_SQL_PAR_connectionString": {
+			"value": ""
+		},
+		"LS_SQLSERVER_PAR_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_PAR_properties_typeProperties_url": {
+			"value": "https://adlssidevecom11.dfs.core.windows.net/"
+		}
+	}
+}
